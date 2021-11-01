@@ -69,7 +69,7 @@ class _hadesditalsState extends State<hadesditals> {
 
   void loadhadesditals(int index) async {
     String filecontent =
-    await rootBundle.loadString('assets/file/${index + 1}.txt');
+    await rootBundle.loadString('assets/file/${index+ 1}.txt');
     List<String> hadescontent = filecontent.split('\n');
     this.hades = hadescontent;
     setState(() {
