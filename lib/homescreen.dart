@@ -22,13 +22,7 @@ class _homescreenState extends State<homescreen> {
       children:[
         Image.asset('assets/image/main_background.png',width: double.infinity,
         fit: BoxFit.cover,),
-       Container(
-         padding: EdgeInsets.symmetric(vertical:80),
-         child: Row(
-           mainAxisAlignment: MainAxisAlignment.center,
-           children:[ Image.asset('assets/image/logo_home.png')],
-    ),
-       ),
+
        Scaffold(
 
          appBar: AppBar(
