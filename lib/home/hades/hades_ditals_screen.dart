@@ -52,7 +52,7 @@ class _hadesditalsState extends State<hadesditals> {
                     child: Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: Text(
-                        hades[index]+'{${index+1}}',
+                        hades[index],
                         style: TextStyle(fontSize: 18),
                         textAlign: TextAlign.center,
                         textDirection: TextDirection.rtl,
